@@ -24,8 +24,6 @@ class PhotoService {
             });
         });
 
-        console.log({ uploadResult })
-
         const photoDoc = await Photo.create({
             title: body.title || file.originalname,
             description: body.description || '',
