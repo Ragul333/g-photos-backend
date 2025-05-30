@@ -1,4 +1,3 @@
-// src/middlewares/error.middleware.js
 class AppError extends Error {
     constructor(message, statusCode) {
       super(message);
